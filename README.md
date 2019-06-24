@@ -35,7 +35,6 @@ counts.saveAsTextFile("hdfs://...")
 
 ```python
 from pyspark.sql.functions import *
-from pyspark.sql import functions as F
 ```
 
 #### Transformando os arquivos de log em um DataFrame
